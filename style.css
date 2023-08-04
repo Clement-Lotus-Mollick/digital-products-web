@@ -1,14 +1,68 @@
+/* for all body  */
+*{
+    margin: 0;
+    padding: 0;
+}
 /* nav part  */
 .nav-one{
     display: flex;
     justify-content: space-around;
+    background: rgba(0, 0, 0, 0.874); 
+    padding: 10px;
+    align-items: center;
 }
 
 .menu-items{
     display: flex;
-
+    gap: 20px;
+    list-style: none;
 }
 
 .menu-items a{
     text-decoration: none;
+    color: white;
+}
+
+.menu-items a:hover{
+    color: red;
+}
+
+.menu-ttl{
+    color: white;
+      
+}
+
+/* banner section style main  */
+
+.banner-container{
+    display: flex;
+    justify-content: space-around;
+    height: 93vh;
+    color: white;
+    /* border: 2px solid gray; */
+    align-items: center;
+    background-image: url(./images/background.png),
+    linear-gradient(45deg,#080808e4,#000);
+}
+
+.banner-ttl{
+    font-size: 55px;
+    font-weight: bold;
+}
+.banner-des{
+    font-size: 18px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.btn{
+    padding: 10px 20px;
+    color: white;
+    background-color: red;
+    border: none;
+    border-radius: 2px;
+}
+
+.btn:hover{
+    color: black;
 }
