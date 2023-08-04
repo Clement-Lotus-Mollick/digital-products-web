@@ -1,0 +1,14 @@
+/* nav part  */
+.nav-one{
+    display: flex;
+    justify-content: space-around;
+}
+
+.menu-items{
+    display: flex;
+
+}
+
+.menu-items a{
+    text-decoration: none;
+}
