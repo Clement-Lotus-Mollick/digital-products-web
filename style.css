@@ -65,4 +65,73 @@
 
 .btn:hover{
     color: black;
+    background-color: white;
 }
+/* about style  */
+.about-ttl{
+   display: flex;
+   justify-content: center;
+   margin-top: 35px;
+   margin-bottom: 25px;
+   font-size: 55px;
+   font-weight: bold;
+}
+
+.about-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+ .about-ttll{
+
+ }
+
+ .about-btn{
+    background-color: red;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 2px;
+ }
+
+
+ /* our services style  */
+
+ .services-container{
+    display: flex;
+    justify-content: space-around;
+ }
+
+ .box{
+    height: 260px;
+    width: 250px;
+    box-shadow: 4px 4px 15px gray;
+    background-color: black;
+    color: white;
+   text-align: center;
+   padding: 25px;
+    
+ }
+
+ .services-img{
+    width: 70px;
+ }
+
+ .services-ttl{
+    margin-top: 12px;
+    margin-bottom: 12px;
+ }
+
+ .services-para{
+    margin-top: 12px;
+    margin-bottom: 12px;
+ }
+
+ .services-btn{
+    color: white;
+    background-color: gray;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 1px;
+ }
